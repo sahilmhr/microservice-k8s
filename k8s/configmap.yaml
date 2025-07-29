@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: postgres-config
+  namespace: microservice-namespace
+data:
+  POSTGRES_DB: microservice
+  POSTGRES_USER: postgres
+  DATABASE_HOST: postgres-service
+  DATABASE_PORT: "5432"
+  DATABASE_NAME: microservice
+  DATABASE_USER: postgres

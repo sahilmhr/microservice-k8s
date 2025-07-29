@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: microservice-namespace
+  labels:
+    name: microservice-namespace
+    app: microservice
+    environment: development
+    version: v1.0.0
+    owner: Sahil
